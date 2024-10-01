@@ -1,4 +1,4 @@
-### 3. Abrir el script de la base de datos llamada “tienda.sql” y ejecutarlo para crear sus tablas e insertar datos en las mismas.
+### Abrir el script de la base de datos llamada “tienda.sql” y ejecutarlo para crear sus tablas e insertar datos en las mismas.
 A continuación, generar el modelo de entidad relación. Deberá obtener un diagrama de entidad relación igual al que se muestra a continuación:
 
 ![Modelo ER](./ModeloER.png)
@@ -23,35 +23,41 @@ A continuación, generar el modelo de entidad relación. Deberá obtener un diag
 
 ### Consultas Multitabla:
 
-1. Devuelve una lista con el código del producto, nombre del producto, código del fabricante y nombre del fabricante, de todos los productos de la base de datos.
-2. Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos. Ordene el resultado por el nombre del fabricante, por orden alfabético.
-3. Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más barato.
-4. Devuelve una lista de todos los productos del fabricante Lenovo.
-5. Devuelve una lista de todos los productos del fabricante Crucial que tengan un precio mayor que $200.
-6. Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packard. Utilizando el operador `IN`.
-7. Devuelve un listado con el nombre de producto, precio y nombre de fabricante, de todos los productos que tengan un precio mayor o igual a $180. Ordene el resultado en primer lugar por el precio (en orden descendente) y en segundo lugar por el nombre (en orden ascendente).
+16. Devuelve una lista con el código del producto, nombre del producto, código del fabricante y nombre del fabricante, de todos los productos de la base de datos.
+17. Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos. Ordene el resultado por el nombre del fabricante, por orden alfabético.
+18. Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más barato.
+19. Devuelve una lista de todos los productos del fabricante Lenovo.
+20. Devuelve una lista de todos los productos del fabricante Crucial que tengan un precio mayor que $200.
+21. Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packard. Utilizando el operador `IN`.
+22. Devuelve un listado con el nombre de producto, precio y nombre de fabricante, de todos los productos que tengan un precio mayor o igual a $180. Ordene el resultado en primer lugar por el precio (en orden descendente) y en segundo lugar por el nombre (en orden ascendente).
 
 ### Consultas Multitabla
 
 #### Resuelva todas las consultas utilizando las cláusulas `LEFT JOIN` y `RIGHT JOIN`:
 
-1. Devuelve un listado de todos los fabricantes que existen en la base de datos, junto con los productos que tiene cada uno de ellos. El listado deberá mostrar también aquellos fabricantes que no tienen productos asociados.
-2. Devuelve un listado donde sólo aparezcan aquellos fabricantes que no tienen ningún producto asociado.
+23. Devuelve un listado de todos los fabricantes que existen en la base de datos, junto con los productos que tiene cada uno de ellos. El listado deberá mostrar también aquellos fabricantes que no tienen productos asociados.
+24. Devuelve un listado donde sólo aparezcan aquellos fabricantes que no tienen ningún producto asociado.
 
 ### Subconsultas (En la cláusula `WHERE`)
 
 #### Con operadores básicos de comparación:
 
-1. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar `INNER JOIN`).
-2. Devuelve todos los datos de los productos que tienen el mismo precio que el producto más caro del fabricante Lenovo. (Sin utilizar `INNER JOIN`).
-3. Lista el nombre del producto más caro del fabricante Lenovo.
-4. Lista todos los productos del fabricante Asus que tienen un precio superior al precio medio de todos sus productos.
+25. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar `INNER JOIN`).
+26. Devuelve todos los datos de los productos que tienen el mismo precio que el producto más caro del fabricante Lenovo. (Sin utilizar `INNER JOIN`).
+27. Lista el nombre del producto más caro del fabricante Lenovo.
+28. Lista todos los productos del fabricante Asus que tienen un precio superior al precio medio de todos sus productos.
 
 ### Subconsultas con `IN` y `NOT IN`:
 
-1. Devuelve los nombres de los fabricantes que tienen productos asociados. (Utilizando `IN` o `NOT IN`).
-2. Devuelve los nombres de los fabricantes que no tienen productos asociados. (Utilizando `IN` o `NOT IN`).
+29. Devuelve los nombres de los fabricantes que tienen productos asociados. (Utilizando `IN` o `NOT IN`).
+30. Devuelve los nombres de los fabricantes que no tienen productos asociados. (Utilizando `IN` o `NOT IN`).
 
 ### Subconsultas (En la cláusula `HAVING`):
 
-1. Devuelve un listado con todos los nombres de los fabricantes que tienen el mismo número de productos que el fabricante Lenovo.
+31. Devuelve un listado con todos los nombres de los fabricantes que tienen el mismo número de productos que el fabricante Lenovo.
+
+### Importante para la entrega:
+- El formato puede ser en (.docx), (.pdf) o (.sql)
+- La entrega es a través de mail al correo jnicolas.ramos10@gmail.com, y el asunto debe
+- respetar este formato:
+TP_MYSQL(DML)_7mo1ra_esc728 – <nombre de los integrantes>
