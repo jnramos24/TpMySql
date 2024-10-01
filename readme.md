@@ -58,6 +58,6 @@ A continuación, generar el modelo de entidad relación. Deberá obtener un diag
 
 ### Importante para la entrega:
 - El formato puede ser en (.docx), (.pdf) o (.sql)
-- La entrega es a través de mail al correo jnicolas.ramos10@gmail.com, y el asunto debe
-- respetar este formato:
-TP_MYSQL(DML)_7mo1ra_esc728 – <nombre de los integrantes>
+- La entrega es a través de mail al correo jnicolas.ramos10@gmail.com, y el asunto debe respetar este formato:
+
+    TP_MYSQL(DML)_7mo1ra_esc728 – "nombre de los integrantes"
