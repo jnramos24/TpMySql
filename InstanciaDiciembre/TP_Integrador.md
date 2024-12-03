@@ -3,6 +3,10 @@
 #### **Objetivo**
 Desarrollar una base de datos relacional mediante comandos DDL y realizar consultas utilizando comandos DML con un enfoque en relaciones entre tablas y consultas avanzadas.
 
+### **Entrega**
+La entrega esperada es de 3 archivos: Script de creacion de base de datos (*.sql), script con las consultas a la base de datos, (*.sql), archivo wordo pdf (*.docx; *.pdf) con capturas de los resultados de las consultas hechas en el workbench de MySql. 
+Debe hacerse a traves de mail al correo jnicolas.ramos10@gmail.com colocando en el asunto del correo nombre y apellido del estudiante y nombre de la materia.
+
 ---
 
 ### **Parte 1: Creación de la Base de Datos**
